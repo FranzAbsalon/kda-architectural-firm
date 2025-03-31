@@ -5,7 +5,7 @@ import { useRef } from 'react';
 import { useScroll, motion, useTransform, useSpring } from 'framer-motion';
 import Magnetic from '../../common/Magnetic';
 
-export default function Contact() {
+const Contact = () => {
     const container = useRef(null);
     const { scrollYProgress } = useScroll({
         target: container,
@@ -79,3 +79,5 @@ export default function Contact() {
         </motion.div>
     )
 }
+
+export default Contact;

@@ -26,7 +26,7 @@ const navItems = [
   },
 ]
 
-export default function Nav() {
+const Nav = () => {
 
   const pathname = usePathname();
   const [selectedIndicator, setSelectedIndicator] = useState(pathname);
@@ -61,3 +61,5 @@ export default function Nav() {
     </motion.div>
   )
 }
+
+export default Nav;

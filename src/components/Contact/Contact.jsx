@@ -23,8 +23,8 @@ const Contact = () => {
                         <div className={styles.imageContainer}>
                             <Image 
                                 fill={true}
-                                alt={"image"}
-                                src={/images/background.jpg}
+                                alt="image"
+                                src="/images/background.jpg"
                             />
                         </div>
                         <h2>Let's work</h2>

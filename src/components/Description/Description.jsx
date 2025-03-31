@@ -2,7 +2,7 @@ import styles from './style.module.scss';
 import { useInView, motion } from 'framer-motion';
 import { useRef } from 'react';
 import { slideUp, opacity } from './animation';
-import Rounded from '../../common/RoundedButton';
+import Rounded from '../../common/RoundedButton/RoundedButton';
 const Description = () => {
 
     const phrase = "Motivated and detail-oriented Junior Frontend Developer with a strong foundation in web development and UI/UX design. Passionate about creating user-centric, responsive, and visually appealing applications while actively expanding skills in backend development to transition into a Fullstack Engineer role. Skilled in collaborating with cross-functional teams, solving complex problems, and adapting to new challenges. Eager to contribute to dynamic environments that prioritize growth, learning, and innovation, while seeking opportunities to enhance technical expertise and professional development.";

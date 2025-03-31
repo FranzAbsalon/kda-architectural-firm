@@ -1,9 +1,9 @@
 import styles from './style.module.scss';
 import Image from 'next/image';
-import Rounded from '../../common/RoundedButton';
+import Rounded from '../../common/RoundedButton/RoundedButton';
 import { useRef } from 'react';
 import { useScroll, motion, useTransform, useSpring } from 'framer-motion';
-import Magnetic from '../../common/Magnetic';
+import Magnetic from '../../common/Magnetic/Magnetic';
 
 const Contact = () => {
     const container = useRef(null);

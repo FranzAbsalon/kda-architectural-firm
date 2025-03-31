@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Rounded from '../../common/RoundedButton/RoundedButton';
 import { useRef } from 'react';
 import { useScroll, motion, useTransform } from 'framer-motion';
-import Magnetic from '@/common/Magnetic/Magnetic';
+import Magnetic from '../../common/Magnetic/Magnetic';
 
 const Contact = () => {
     const container = useRef(null);

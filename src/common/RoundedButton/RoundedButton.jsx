@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import styles from './style.module.scss';
 import gsap from 'gsap';
-import Magnetic from '../Magnetic';
+import Magnetic from '../Magnetic/Magnetic';
 
 const RoundedButton = ({children, backgroundColor="#455CE9", ...attributes}) => {
   const circle = useRef(null);
